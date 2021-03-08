@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+	background-color:#080505;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#e6eeff!important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 3.0rem;
+    color: #080505!important;
+    
+}
+
+.nav-link{
+    float: right;
+    color: #080505!important;
+    
+}
+
+.nav-link:hover{
+    background-color:#941324;
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+background-color:#941324;
+}
+.my-info{
+    padding: 2rem 5rem;
+	font-size:20px;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: #080505!important;
+    color: #e6eeff !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color:#0e4ac9 ;!important;
+}
